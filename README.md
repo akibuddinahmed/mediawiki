@@ -28,10 +28,11 @@ kubectl apply -f mediawiki-deployment.yaml
 kubectl apply -f mediawiki-service.yaml
 
 ```
-
-Once the deployed pods are up and running, the app Mediawiki can be accessed using nodeIP:port
-
 MariaDB connections and secrets can be modified using the mariadb Dockerfile
+
+Once the deployed pods are up and running, the app Mediawiki can be accessed using `nodeIP:30010`
+
+Complete the installation and download LocalSettings.php.
 
 After final submission the app will generate LocalSettings.php file which needs to be copied to config folder in this project and also to the mediawiki container/pod at location `/var/www/html/mediawiki/`
 
