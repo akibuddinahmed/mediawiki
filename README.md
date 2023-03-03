@@ -1,6 +1,6 @@
 # mediawiki
 Project to be used for learning purposes only.
-Build on Ubunu 18.04 and mariaDB
+Build on Ubuntu 18.04 and mariaDB
 
 
 ## Dockerfiles
